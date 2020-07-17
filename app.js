@@ -124,3 +124,25 @@ sectionTwo.textContent = "Tomatoes";
 sectionThree.textContent = "Yams";
 sectionFour.textContent = "Cucumbers";
 sectionFive.textContent = "Papayas";
+
+
+const paraOne = document.querySelector(".paragraph-one");
+console.log(paraOne);
+paraOne.textContent = "Baked Potatoes";
+
+const paraTwo = document.querySelector(".paragraph-two");
+console.log(paraTwo);
+paraTwo.textContent = "Cherry Tomatoes";
+
+const paraThree = document.querySelector(".paragraph-three");
+console.log(paraThree);
+paraThree.textContent = "Purple Yams";
+
+const paraFour = document.querySelector(".paragraph-four");
+console.log(paraFour);
+paraFour.textContent = "Cucumbers are not special."
+
+const paraFive = document.querySelector(".paragraph-five");
+console.log(paraFive);
+paraFive.textContent = "Papayas are kinda cool."
+
