@@ -15,3 +15,23 @@ console.log(myArray);
 console.log(myBoolean);
 console.log(myObject);
 
+//make 10 functions
+//pass in array
+fucntion passingArray(array)
+{
+    for (let i = 0; i < array.length; i++)
+    {
+        console.log(array[i]);
+    }
+}
+
+//pass in callback
+
+//pass in string
+//pass in object
+//pass in boolean
+//freestyle
+//freestyle
+//freestyle
+//freestyle
+//freestyle
