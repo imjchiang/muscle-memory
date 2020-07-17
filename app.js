@@ -43,6 +43,14 @@ function passingString(string)
 }
 
 //pass in object
+function passingObject(object)
+{
+    console.log(object.propertyArray);
+    console.log(object.propertyBoolean);
+    console.log(object.propertyNumber);
+    console.log(object.propertyString);
+}
+
 //pass in boolean
 //freestyle
 //freestyle
