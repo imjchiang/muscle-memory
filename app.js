@@ -78,5 +78,3 @@ function potato()
 //freestyle
 //freestyle
 //freestyle
-
-potato();
