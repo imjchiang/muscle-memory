@@ -100,3 +100,27 @@ passingObject(myObject);
 passingBoolean(myBoolean);
 potato();
 coolPotato();
+
+
+const sectionOne = document.getElementById("section-one");
+console.log(sectionOne);
+
+const sectionTwo = document.getElementById("section-two");
+console.log(sectionTwo);
+
+const sectionThree = document.querySelector("#section-three");
+console.log(sectionThree);
+
+const sectionFour = document.querySelector("#section-four");
+console.log(sectionFour);
+
+const sectionFive = document.querySelector("#section-five");
+console.log(sectionFive);
+
+
+//don't use .innerHTML (can get hacked)
+sectionOne.textContent = "Potatoes";
+sectionTwo.textContent = "Tomatoes";
+sectionThree.textContent = "Yams";
+sectionFour.textContent = "Cucumbers";
+sectionFive.textContent = "Papayas";
