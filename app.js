@@ -26,9 +26,9 @@ function passingArray(array)
 }
 
 //pass in callback
-function passingCallback(callback)
+function passingCallback(callback, array)
 {
-    callback(myArray);
+    callback(array);
 }
 
 //pass in string
@@ -45,7 +45,9 @@ function passingString(string)
 //pass in object
 function passingObject(object)
 {
-    console.log(object.propertyArray);
+    object.propertyArray.forEach(number => {
+        console.log(number);        
+    });
     console.log(object.propertyBoolean);
     console.log(object.propertyNumber);
     console.log(object.propertyString);
@@ -75,6 +77,26 @@ function potato()
 }
 
 //freestyle
+function coolPotato()
+{
+    let coolboi = "potato";
+    let lastPotato = coolboi.length - 1;
+    while (coolboi.length > 0)
+    {
+        console.log(coolboi);
+        coolboi = coolboi.slice(1);
+    }
+
+}
+
 //freestyle
 //freestyle
 //freestyle
+
+passingArray(myArray);
+passingCallback(passingArray, myArray);
+passingString(myString);
+passingObject(myObject);
+passingBoolean(myBoolean);
+potato();
+coolPotato();
