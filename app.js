@@ -65,7 +65,19 @@ function passingBoolean(boolean)
 }
 
 //freestyle
+function potato()
+{
+    let potat = "potato"
+    for (let i = 0; i < potat.length; i++)
+    {
+        console.log(potat);
+        potat.pop();
+    }
+}
+
 //freestyle
 //freestyle
 //freestyle
 //freestyle
+
+potato();
