@@ -8,3 +8,10 @@ const myObject = {
     propertyArray: [9, 8, 7, 6, 5],
     propertyBoolean: false
 };
+
+console.log(myString);
+console.log(myNumber);
+console.log(myArray);
+console.log(myBoolean);
+console.log(myObject);
+
