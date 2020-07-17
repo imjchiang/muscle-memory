@@ -71,7 +71,6 @@ function potato()
     for (let i = 0; i < potat.length; i++)
     {
         console.log(potat);
-        potat.pop();
     }
 }
 
