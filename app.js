@@ -52,6 +52,18 @@ function passingObject(object)
 }
 
 //pass in boolean
+function passingBoolean(boolean)
+{
+    if (boolean === true)
+    {
+        console.log("We are good");
+    }
+    else
+    {
+        console.log("We are no good");
+    }
+}
+
 //freestyle
 //freestyle
 //freestyle
