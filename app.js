@@ -146,3 +146,64 @@ const paraFive = document.querySelector(".paragraph-five");
 console.log(paraFive);
 paraFive.textContent = "Papayas are kinda cool."
 
+const containerSix = document.createElement("div");
+containerSix.classList.add("container-six");
+console.log(containerSix);
+
+const sectionSix = document.createElement("h2");
+sectionSix.setAttribute("id", "section-six");
+console.log(sectionSix);
+sectionSix.textContent = "Cabbages";
+
+const paraSix = document.createElement("p");
+paraSix.classList.add("paragraph-six");
+paraSix.textContent = "Purple Cabbage";
+console.log(paraSix);
+
+const body = document.querySelector("body");
+console.log(body);
+
+body.appendChild(containerSix);
+containerSix.appendChild(sectionSix);
+containerSix.appendChild(paraSix);
+
+//create container
+const containerSeven = document.createElement("div");
+console.log(containerSeven);
+
+//add class
+containerSeven.classList.add("container-seven");
+console.log(containerSeven);
+
+//create section
+const sectionSeven = document.createElement("h2");
+console.log(sectionSeven);
+
+//add id
+sectionSeven.setAttribute("id", "section-seven");
+console.log(sectionSeven);
+
+//add textContent
+sectionSeven.textContent = "Watermelon";
+console.log(sectionSeven);
+
+//create paragraph
+const paraSeven = document.createElement("p");
+console.log(paraSeven);
+
+//add class
+paraSeven.classList.add("paragraph-six");
+console.log(paraSeven);
+
+//add textContent
+paraSeven.textContent = "I'm allergic to watermelon";
+console.log(paraSeven);
+
+//append container to body
+body.appendChild(containerSeven);
+
+//append section to container
+containerSeven.appendChild(sectionSeven);
+
+//append paragraph to container
+containerSeven.appendChild(paraSeven);
