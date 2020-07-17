@@ -17,7 +17,7 @@ console.log(myObject);
 
 //make 10 functions
 //pass in array
-fucntion passingArray(array)
+function passingArray(array)
 {
     for (let i = 0; i < array.length; i++)
     {
@@ -26,6 +26,10 @@ fucntion passingArray(array)
 }
 
 //pass in callback
+function passingCallback(callback)
+{
+    callback(myArray);
+}
 
 //pass in string
 //pass in object
