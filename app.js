@@ -32,6 +32,16 @@ function passingCallback(callback)
 }
 
 //pass in string
+function passingString(string)
+{
+    let i = 0;
+    while (i < string.length)
+    {
+        console.log(string[i]);
+        i++;
+    }
+}
+
 //pass in object
 //pass in boolean
 //freestyle
